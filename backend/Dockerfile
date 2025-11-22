@@ -5,5 +5,5 @@ RUN npm install -g npm@latest
 RUN npm install
 COPY . .
 RUN npm run build
-EXPOSE 3000
+EXPOSE 9001
 CMD ["npm", "run", "start"]
